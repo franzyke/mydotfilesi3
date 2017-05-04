@@ -197,3 +197,9 @@ bindsym $mod+x exec $HOME/.config/i3/custom/lock
 # switch hdmi and laptop audio
 # bindsym $mod+; exec --no-startup-id pactl set-card-profile 0 output:hdmi-stereo
 # bindsym $mod+. exec pactl set-card-profile 0 output:analog-stereo
+
+# GAPS
+for_window [class="^.*"] border pixel 0
+gaps inner 10
+gaps outer 10
+
